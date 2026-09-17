@@ -1,16 +1,108 @@
-# React + Vite
+# 🎬 MovieVerse
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+**MovieVerse** is a modern movie discovery web application built with **React.js** and **Vite**. Users can explore movies, search for their favorite titles, view movie details, and browse movie information through a clean and responsive interface.
 
-Currently, two official plugins are available:
+The project uses a **movie API based on IMDb data** to fetch real-time movie information.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- 🎬 Browse movies
+- 🔎 Search for movies
+- 📄 View detailed movie information
+- ⭐ Display movie ratings
+- 🖼️ Movie posters and images
+- 📱 Fully responsive design
+- ⚡ Fast performance with Vite
+- 🎨 Modern UI built with React
+- 🔄 Fetch movie data from an IMDb-based API
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
 
-## Expanding the Oxlint configuration
+- **React.js** — UI development
+- **JavaScript (ES6+)** — Application logic
+- **Vite** — Development environment and build tool
+- **Tailwind CSS** — Styling and responsive design
+- **React Router** — Client-side routing
+- **Fetch API** — Fetching movie data
+- **IMDb Movie API** — Movie information and metadata
+- **HTML5** — Page structure
+- **CSS3** — Styling
+- **Git & GitHub** — Version control
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 📂 Project Structure
+
+```text
+MovieVerse/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── hooks/
+│   ├── services/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── .env
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+```
+
+Go to the project directory:
+
+```bash
+cd MovieVerse
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+The application will run locally using Vite.
+
+## 🔑 API Configuration
+
+Create a `.env` file in the root directory and add your movie API key:
+
+```env
+VITE_MOVIE_API_KEY=your_api_key_here
+```
+
+Use the environment variable in your React application instead of exposing the API key directly in your components.
+
+## 📌 Project Summary
+
+MovieVerse is a React-based movie discovery application created to practice and demonstrate modern frontend development concepts. It combines **React components, API integration, routing, state management, responsive UI design, and asynchronous JavaScript** to create a real-world movie browsing experience.
+
+The project was built with **Vite** for a fast development workflow and uses an **IMDb-based movie API** to retrieve movie data.
+
+## 🎯 Purpose
+
+This project was developed as a practical React project to improve skills in:
+
+- React component architecture
+- API integration
+- JavaScript asynchronous programming
+- React Hooks
+- Routing
+- Search functionality
+- Responsive UI development
+- Working with external APIs
+- Building a real-world frontend application
